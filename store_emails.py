@@ -6,7 +6,7 @@ from datetime import datetime
 from langchain.schema import Document
 from langchain_google_genai import GoogleGenerativeAIEmbeddings
 from langchain_chroma import Chroma
-from schemas import *
+from schemas import EmailSchema
 
 load_dotenv()
 
